@@ -1,0 +1,62 @@
+
+@@include('../inc/head.html')
+@@include('../inc/header.html')
+@@include('../inc/location.html')	
+<!-- container -->
+<section class="container" id="container">
+	<div class="pagetitle-wrap">
+		<h1 class="title-style1">똑똑한 맞춤검진</h1>
+		<p class="text-style1">맞춤 검진은 다양한 검진 프로그램들 중에서 검진 받고자 하는 사람의 나이와 성별, 가족 병력이나 생활 패턴 등을 확인한 후<br/>개개인의 특성에 부합하는 검진을 선택 하시는데 도움을 드립니다</p>
+	</div>	
+	<div class="contents">
+
+
+		<div class="box_top style1">
+			<div class="txt">
+				<h3 class="tit"><span>Q2</span>해당항목을 선택해주세요.?</h3>
+				<p><a href="javascript:popupOpen1();">소화기(식도, 위, 간, 췌장, 담낭, 비장, 대장) </a></p>
+				<p><a href="javascript:popupOpen2();">호흡기(기관, 기관지, 폐) </a></p>	
+				<p><a href="javascript:popupOpen3();">심장  </a></p>	
+				<p><a href="javascript:popupOpen4();">뇌  </a></p>	
+				<p><a href="javascript:popupOpen5();">암 </a></p>	
+
+			</div>
+			<div class="box_bottom"></div>
+		</div>
+	</div>
+</section>
+<!-- //container -->
+@@include('../inc/footer.html')
+<script type="text/javascript">	
+	function popupOpen1(){
+		var popUrl = "popupnew3_1.html";	
+		var popOption = "width=550, height=380, resizable=no, scrollbars=no, status=no;";  
+		window.open(popUrl,"",popOption);
+	}
+	
+	function popupOpen2(){
+		var popUrl = "popupnew3_2.html";	
+		var popOption = "width=550, height=380, resizable=no, scrollbars=no, status=no;";  
+		window.open(popUrl,"",popOption);
+	}
+	
+	function popupOpen3(){
+		var popUrl = "popupnew3_3.html";	
+		var popOption = "width=550, height=380, resizable=no, scrollbars=no, status=no;";  
+		window.open(popUrl,"",popOption);
+	}
+	
+	function popupOpen4(){
+		var popUrl = "popupnew3_4.html";	
+		var popOption = "width=550, height=380, resizable=no, scrollbars=no, status=no;";   
+		window.open(popUrl,"",popOption);
+	}
+
+	function popupOpen5(){
+		var popUrl = "popupnew3_5.html";	
+		var popOption = "width=550, height=380, resizable=no, scrollbars=no, status=no;";  
+		window.open(popUrl,"",popOption);
+	}
+
+
+</script>
