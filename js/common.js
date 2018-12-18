@@ -114,8 +114,9 @@ $(document).ready(function() {
 	if (tapN < 6) {
 		var tapW = 1180/tapN;
 		$tablist1.find('a').css( 'width', tapW+'px' );
-	}else if(tapN > 6){
-		$(".scroll-btn").addClass('active')
+	}else if(tapN > 7){
+		var tapW = 1180/8;
+		$tablist1.find('a').css( 'width', tapW+'px' );
 	}
 
 
