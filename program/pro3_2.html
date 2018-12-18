@@ -16,13 +16,13 @@
 				<h3 class="tit"><span>Q2</span>해당항목을 선택해주세요.</h3>
 				<p class="map"><img src="../img/map.png" alt="인체해부도" usemap="#human"/></p>
 				<map name="human">
-					<area shape = "rect" coords="370,10,430,40" href="javascript:popupOpen1();" alt="머리 선택"/>
-					<area shape = "rect" coords="400,90,460,125" href="javascript:popupOpen2();" alt="갑상선 선택"/>
-					<area shape = "rect" coords="110,144,150,175" href="javascript:popupOpen3();" alt="폐 선택"/>
-					<area shape = "rect" coords="400,150,460,185" href="javascript:popupOpen4();" alt="심장 선택"/>
-					<area shape = "rect" coords="100,230,150,260" href="javascript:popupOpen5();" alt="유방 선택"/>
-					<area shape = "rect" coords="370,220,430,250" href="javascript:popupOpen6();" alt="소화기 선택"/>
-					<area shape = "rect" coords="370,270,450,300" href="javascript:popupOpen7();" alt="자궁,난소선택 "/>		
+					<area shape = "rect" coords="370,10,430,40" href="popupnew2_1.html" alt="머리 선택"/>
+					<area shape = "rect" coords="400,90,460,125" href="popupnew2_2.html" alt="갑상선 선택"/>
+					<area shape = "rect" coords="110,144,150,175" href="popupnew2_3.html" alt="폐 선택"/>
+					<area shape = "rect" coords="400,150,460,185" href="popupnew2_4.html" alt="심장 선택"/>
+					<area shape = "rect" coords="100,230,150,260" href="popupnew2_5.html" alt="유방 선택"/>
+					<area shape = "rect" coords="370,220,430,250" href="popupnew2_6.html" alt="소화기 선택"/>
+					<area shape = "rect" coords="370,270,450,300" href="popupnew2_7.html" alt="자궁,난소선택 "/>		
 				</map>
 
 			</div>
@@ -32,44 +32,3 @@
 </section>
 <!-- //container -->
 @@include('../inc/footer.html')
-<script type="text/javascript">	
-	function popupOpen1(){
-		var popUrl = "popupnew2_1.html";	
-		var popOption = "width=550, height=390, resizable=no, scrollbars=no, status=no;";    
-		window.open(popUrl,"",popOption);
-	}
-	
-	function popupOpen2(){
-		var popUrl = "popupnew2_2.html";	
-		var popOption = "width=550, height=390, resizable=no, scrollbars=no, status=no;";  
-		window.open(popUrl,"",popOption);
-	}
-	
-	function popupOpen3(){
-		var popUrl = "popupnew2_3.html";	
-		var popOption = "width=550, height=390, resizable=no, scrollbars=no, status=no;";  
-		window.open(popUrl,"",popOption);
-	}
-	
-	function popupOpen4(){
-		var popUrl = "popupnew2_4.html";	
-		var popOption = "width=550, height=390, resizable=no, scrollbars=no, status=no;";  
-		window.open(popUrl,"",popOption);
-	}
-
-	function popupOpen5(){
-		var popUrl = "popupnew2_5.html";	
-		var popOption = "width=550, height=390, resizable=no, scrollbars=no, status=no;";   
-		window.open(popUrl,"",popOption);
-	}
-	function popupOpen6(){
-		var popUrl = "popupnew2_6.html";	
-		var popOption = "width=550, height=390, resizable=no, scrollbars=no, status=no;";  
-		window.open(popUrl,"",popOption);
-	}
-	function popupOpen7(){
-		var popUrl = "popupnew2_7.html";	
-		var popOption = "width=550, height=390, resizable=no, scrollbars=no, status=no;";  
-		window.open(popUrl,"",popOption);
-	}
-</script>
