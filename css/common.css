@@ -479,9 +479,8 @@ input[type=text]:focus, input[type=password]:focus{ outline: none; border: 1px s
 .board-wrap .board-navi-box .navi-tit .navi-btn .next-list{background-position:  -30px 11px;margin-left: 2px }
 .board-wrap .board-navi-box .navi-list > ul > li{ border-bottom: 1px solid #eeeeee; padding: 27px 20px 32px}
 .board-wrap .board-navi-box .navi-list .category{margin-bottom:15px;}
-.board-wrap .board-navi-box .navi-list .tit{font-size: 16px; color: #000;  margin:0 0 12px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
-.board-wrap .board-navi-box .navi-list .tit .badge{margin-right: 7px; margin-top: 3px}
-.board-wrap .board-navi-box .navi-list .tit a{display: inline;}
+.board-wrap .board-navi-box .navi-list .tit{font-size: 16px; color: #000;  margin:0 0 12px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;display:inline-block;width: 240px; }
+.board-wrap .board-navi-box .navi-list .tit .badge{margin-right: 7px;}
 
 /* board - img list  */
 .board-wrap .img-list {width: 1180px; position:relative; text-align:center;}
@@ -491,11 +490,10 @@ input[type=text]:focus, input[type=password]:focus{ outline: none; border: 1px s
 .board-wrap .img-list > li:last-child{margin-bottom: 50px;}
 .board-wrap .img-list .thum-img{width:378px; height:285px}
 .board-wrap .img-list .category{margin-top: 17px; margin-left: 20px; }
-.board-wrap .img-list .tit{margin-top: 13px; margin-left: 20px; color:#000;font-size: 16px;text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 340px }
-.board-wrap .img-list .tit .badge{margin-right: 7px; margin-top: 3px}
+.board-wrap .img-list .tit{display: inline-block;;argin-top: 13px; margin-left: 20px; color:#000;font-size: 16px;text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 340px }
+.board-wrap .img-list .tit .badge{margin-right: 7px;}
 .board-wrap .img-list .data{margin-top: 8px; margin-left: 20px;}
-.board-wrap .img-list .tit a:hover, .board-wrap .img-list .tit a:focus{text-decoration: underline; cursor: pointer; }
-.board-wrap .img-list .tit a{display: inline;}
+.board-wrap .img-list .tit:hover, .board-wrap .img-list .tit:focus{text-decoration: underline; cursor: pointer; }
 
 /* board - img list - detail */
 .board-wrap .board-navi-box .navi-list .thum-img {width: 240px; height: 180px; margin-bottom: 20px}
