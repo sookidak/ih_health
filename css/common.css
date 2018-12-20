@@ -602,7 +602,11 @@ input[type=text]:focus, input[type=password]:focus{ outline: none; border: 1px s
 .qna dd:before{content:''; display: block; width:14px ;height: 20px;background:url('../img/icon_component.png') -70px -60px no-repeat;position: absolute;top:50%;left: 30px; transform: translateY(-50%)}
 .Accordion-panel[hidden] { display: none;}
 
-
+.qna.style2 dd p{color:#333;font-family: 'NotoKrR'; line-height: 30px;}
+.qna.style2 dd p:nth-child(n+2){margin-top: 15px;}
+.qna.style2 dd ul{text-align:left;}
+.qna.style2 dd ul > li{padding-left:10px;position: relative;color:#777;line-height: 30px;}
+.qna.style2 dd ul > li:before{content:'';display:inline-block;position:absolute;left:0;top:16px;margin-top:-1px;;width:5px;height:1px;background:#777}
 
 
 /* 센터  메인 */
